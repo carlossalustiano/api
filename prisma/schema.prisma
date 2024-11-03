@@ -28,4 +28,5 @@ model Profissional {
   nome    String
   email   String @unique
   numero  String @unique
+  especialidade String
 }
